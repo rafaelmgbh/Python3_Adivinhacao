@@ -16,7 +16,7 @@ while(total_de_tentativas > 0):
     chute = int (chute_str)
     if(numero_secreto==chute):
         print("Voce acertou")
-        total_de_tentativas = 0
+        break
     else:
         if(chute>numero_secreto):
             print("Voce errou !!! , seu chute foi maior do que o numero secreto")
