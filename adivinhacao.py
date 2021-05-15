@@ -8,7 +8,8 @@ total_de_tentativas = 3
 rodada = 1
 total_tentativas = total_de_tentativas
 while(total_de_tentativas > 0):
-    print("Tentativa ",rodada ," de ", total_tentativas)
+    # Print trabalhando a interpolação de strings
+    print("Tentativa {} de {}" .format(rodada,total_tentativas))
     chute_str = input("Digite o seu numero : ")
     print("Voce digitou  : ", chute_str)
     # Transformando o chute informado em numero inteiro .
