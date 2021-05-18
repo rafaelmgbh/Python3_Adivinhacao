@@ -1,12 +1,15 @@
+import random
+
 print("**********************************************")
 print("  Advinhação do numero")
 print("**********************************************")
 
 
-numero_secreto = 43
+numero_secreto = random.randrange(1,101)
 total_de_tentativas = 3
 rodada = 1
 total_tentativas = total_de_tentativas
+
 while(total_de_tentativas > 0):
     # Print trabalhando a interpolação de strings
     print("Tentativa {} de {}" .format(rodada,total_tentativas))
